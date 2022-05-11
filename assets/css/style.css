@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+strong {
+    font-weight:bold;
+}
+.column-2 {
+    column-count: 2;
+}
+
+.text-red,
+.hover\:text-red:hover {
+    color: rgb(254, 73, 24);
+}
+
+.bg-red,
+.bg-red:hover {
+    background: rgb(254, 73, 24);
+}
+
+#nav {
+    z-index: 999;
+}
+
+.accordion {
+    margin: 0 !important;
+}
+
+.dropdown .panel {
+    padding: 0 18px;
+}
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.cina-text a {
+    color: rgb(254, 73, 24);
+    transition: all 0.3s;
+
+}
+
+.cina-text a:hover {
+    color: rgb(25,25,25);
+    text-decoration: underline;
+}
